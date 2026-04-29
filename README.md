@@ -20,3 +20,15 @@ ___
    ```bash
 pip install requests
   python weather.py
+```
+## 💻 Example Output
+```
+Enter City Name: ***
+Weather in ***:
+Temperature: ** °C
+Condition: clear, cloudy, etc
+```
+## Author
+### Remax Ningthoujam Meetei
+
+
