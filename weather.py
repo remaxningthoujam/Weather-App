@@ -1,5 +1,5 @@
-import requests
-api_key = "d5cffac688d23a1e2ee94834a7403eff"
+import os
+api_key = "os.getenv("WEATHER_API_KEY")
 city = input("Enter City Name:")
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
